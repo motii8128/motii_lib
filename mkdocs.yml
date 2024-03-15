@@ -1,0 +1,11 @@
+site_name: MotiiLib
+
+
+theme:
+  name: material
+  featuress:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+  palette:
+    primary: black
