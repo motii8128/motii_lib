@@ -12,5 +12,22 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
+    - announce.dismiss
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - navigation.sections
+    - navigation.tabs
+    - navigation.footer
+    - navigation.indexes
+    - content.tooltips
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
   palette:
     primary: black
+
