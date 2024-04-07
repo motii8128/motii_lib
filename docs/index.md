@@ -1,9 +1,13 @@
-# Home
-This is a library for study.
-
+# Welcome to Motii Study Report
 **I'm a student in National Institute of Technology, Hakodate College.**
 
-## Table 
+# Usage
+You can go some page that include knowledge for you.
 
-|subject|link|
-|:--:|:--:|
+But, These informations may not fact. 
+
+Please try to find mistake.
+
+# Warning
+This is not related to RobotContest.
+
