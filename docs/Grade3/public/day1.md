@@ -9,4 +9,15 @@ Development(e.g. science, autonomous vhecle, space knowledge...) is progressing,
 
 **It is important for religion to believe exist that exsitence beyond humans.**
 
-### 
+### Religion of tha all World
+The religion can be grouped like a below table.
+
+**world religion(世界宗教)**・・・universality that spreads itself throughout the world.
+
+**ethnic religion(民族宗教)**・・・that worshiped by certain ethnic groups.
+
+|world religion|ethnic religion|
+|:--:|:--:|
+|キリスト教|ユダヤ教|
+|イスラーム（イスラム教）|神道|
+|仏教|ヒンドゥー教|
