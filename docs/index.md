@@ -11,3 +11,7 @@ Please try to find mistake.
 # Warning
 This is not related to RobotContest.
 
+
+# Table
+
+・**[Grade3](./Grade3/index.md)**
