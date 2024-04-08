@@ -1,4 +1,4 @@
-# Welcome to Motii Study Report
+# Home
 **I'm a student in National Institute of Technology, Hakodate College.**
 
 # Usage
