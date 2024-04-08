@@ -18,6 +18,21 @@ The religion can be grouped like a below table.
 
 |world religion|ethnic religion|
 |:--:|:--:|
-|キリスト教|ユダヤ教|
-|イスラーム（イスラム教）|神道|
-|仏教|ヒンドゥー教|
+|Chiristianity|Judaism|
+|Islam|Shinto|
+|Buddhism|hinduism|
+
+### Difference of some religion
+|religion name|Christianity|islam|Buddhism|
+|:--:|:--:|:--:|:--:|
+|Founder|Jesus Christ|muhammad|Gaudama Siddhartha|
+|season|the first of first century |the first of 7th century |5th century BC|
+|location|Palestine, a territory of the Roman Empire|Mecca of the Arabian Peninsula|Magadha country in northeastern India|
+|Number of believers|2.55 billion people|1.93 billion people|0.55 billion people|
+|scripture|new testament, old testament|quran|Buddhist scriptures(various scriptures)|
+|概要|God's Love, neighbor love|Prohibition of idol worship, Six Shingo elements|Four truths,Eightfold path|
+
+### Realization of a cohesive society and tolerance
+**secularization(世俗化)**・・・ Rather than making religious things the standard of society, focus on secular public spaces.
+
+**tolerance**・・・ attitude that allow another people that have a religious thinks.
