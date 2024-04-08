@@ -3,13 +3,13 @@ This content is lectured on 2024/4/8.
 
 ## Let's think Religion(P.25)
 
-### Means of Religion
+## Means of Religion
 Some Religion exist in the world. But, we can't speak and understand about there.
 Development(e.g. science, autonomous vhecle, space knowledge...) is progressing, but we have problem that can't solve. For example, love between people, why people die.
 
 **It is important for religion to believe exist that exsitence beyond humans.**
 
-### Religion of tha all World
+## Religion of tha all World
 The religion can be grouped like a below table.
 
 **world religion(世界宗教)**・・・universality that spreads itself throughout the world.
@@ -22,7 +22,7 @@ The religion can be grouped like a below table.
 |Islam|Shinto|
 |Buddhism|hinduism|
 
-### Difference of some religion
+## Difference of some religion
 |religion name|Christianity|islam|Buddhism|
 |:--:|:--:|:--:|:--:|
 |Founder|Jesus Christ|muhammad|Gaudama Siddhartha|
@@ -32,7 +32,7 @@ The religion can be grouped like a below table.
 |scripture|new testament, old testament|quran|Buddhist scriptures(various scriptures)|
 |概要|God's Love, neighbor love|Prohibition of idol worship, Six Shingo elements|Four truths,Eightfold path|
 
-### Realization of a cohesive society and tolerance
+## Realization of a cohesive society and tolerance
 **secularization(世俗化)**・・・ Rather than making religious things the standard of society, focus on secular public spaces.
 
 **tolerance**・・・ attitude that allow another people that have a religious thinks.
