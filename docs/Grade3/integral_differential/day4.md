@@ -1,7 +1,4 @@
-# Day 4
-2024/4/16
-
-# Easy way to solve definite integrals
+## Easy way to solve definite integrals
 Definite integrals can be easily solved without using formulas like the one from the other day.
 
 It can be found by calculating the primitive function of a given function and subtracting the result when the lower end number is entered into the function from the result when the upper end number is entered into the function.
@@ -18,7 +15,7 @@ $$
 \end{align}
 $$
 
-# Properties of definite integral
+## Properties of definite integral
 These are some properties in **Definite Integral** like a below.
 
 **c is constant value.**
