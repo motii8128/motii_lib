@@ -3,7 +3,7 @@ These pages shows you that you have to study.
 
 # Table
 
-- **[Day 1](./day1.md)**
-- **[Day 2](./day2.md)**
-- **[Day 3](./day3.md)**
+- **[原子関数と不定積分](./１原始関数と不定積分.md)**
+- **[不定積分の練習](./不定積分の練習.md)**
+- **[定積分](./定積分.md)**
 - **[Day 4](./day4.md)**
