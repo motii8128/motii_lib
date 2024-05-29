@@ -1,3 +1,4 @@
+# 等速円運動2
 ## 等速円運動の加速度
 等速円運動において、速度の大きさである速さは一定だがその向きは常に変化しているため加速度が生じているといえる。
 
@@ -29,17 +30,16 @@ $$
 a = \frac {v^2} r [m/s^2]
 $$
 
-## Force required for uniform circular motion
-About the motion earlier, let mass of object be **m[ kg ]**, let force receving be below.
+## 等速円運動に必要な力
+等速円運動している物体の質量を**m [kg]**、そして以下のような力を受けているとする。
 
 $$ \vec{F} [N]$$
 
-From the equation of motion like a below, objects always experiences a constant force in the same direction as the acceleration.
+すると以下の方程式から、物体は常に加速度と同じ向き、すなわち円の中心へ向かう向きに一定の大きさの力を受けていることがわかる。
+そしてこの力を**向心力**という。
 $$ m \vec{a} = \vec{F}$$
 
-In this case, object always experiences force that is facing the center in circle. That is called **Centripetal Force(向心力)**.
-
-Substituting equation ealier for equation of motion.
+向心力の大きさを**F[N]**としaの四季を代入すると等速円運動の中心方向に対する運動方程式ができる。
 
 $$
 \begin{align}
@@ -48,16 +48,16 @@ F &= mrω^2 \\
 \end{align}
 $$
 
-## Key points of uniform circular motion
+## 等速円運動のポイント
+- 物体が等速円運動をしているのを見ると、「円の中心に向かう力が存在するため、円周上を動いている」ことがわかります。
 
-- If you see object moving uniform circular motion, "**moving on circumference because force that is facing the center in circle exist.**"
+- 物体に作用する力を見つけ、その結果生じる力が円の中心に向いていると考えます。
 
-- **Find the forces acting on the object** and consider that their resultant force points toward the center of the circle.
+- そこから運動方程式を用いて合力を式にします。
 
-- **Build equation of motion.**
-
-For example, 
 $$
 \frac {mv^2} r = ResultantForce \\
 mrω^2 = ResultantForce
 $$
+
+ResultantForce = 合力
