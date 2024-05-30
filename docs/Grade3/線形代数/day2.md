@@ -1,7 +1,7 @@
-# Day 2
+# 様々な行列
 
-##　Zero Matrix
-The matrix that all contained elements are o is called Zero Matrix like a below.
+##　零行列
+以下のように含まれる成分がすべて０である行列は零行列よ呼ばれる。
 
 $$
 \begin{bmatrix}
@@ -11,8 +11,8 @@ $$
 \end{bmatrix}
 $$
 
-## Row Vector
-The matrix has 1 row like a below is called row vector.
+## 行ベクトル
+下のように行が１つしかないときにその行列は行ベクトルと呼ばれる
 
 $$
 \begin{bmatrix}
@@ -20,8 +20,8 @@ $$
 \end{bmatrix}
 $$
 
-## Column Vector
-The matrix has 1 column like a below is called column vector.
+## 列ベクトル
+行ベクトルの列バージョン
 
 $$
 \begin{bmatrix}
@@ -31,8 +31,8 @@ $$
 \end{bmatrix}
 $$
 
-## Square Matrix
-Column and row are the same matrix like a below is called square matrix.
+## 正方行列
+行の数と列の数が等しい行列のことを正方行列と呼ぶ
 
 $$
 \begin{bmatrix}
@@ -46,8 +46,8 @@ $$
 \end{bmatrix}
 $$
 
-solve above equation, **a = 2, b = 3, c = 1, d = -4**.
-You can convert above matrix to simultaneous equations like a below.
+上式を解くと**a = 2, b = 3, c = 1, d = -4**となります。
+また、上の行列を変換すると以下のような４つの式に展開できます。
 
 $$
 \begin{array}{}
@@ -56,4 +56,32 @@ a+2b = 8 \\
 c - d = 5 \\
 3c+5d = -17
 \end{array}
+$$
+
+## 対角行列と単位行列
+左上から右下にむかっての並びを**対角成分**という。そしてその対角成分以外がすべて０である行列は対角行列と言われる。
+
+$$
+\begin{bmatrix}
+    4\quad 0\quad 0 \\
+    0\quad 0\quad 0 \\
+    0\quad 0\quad 2
+\end{bmatrix}
+$$
+
+そして対角成分がすべて１である行列は単位行列と呼ばれ**E**で表す。
+
+$$
+\begin{bmatrix}
+    1\quad 0\quad 0 \\
+    0\quad 1\quad 0 \\
+    0\quad 0\quad 1
+\end{bmatrix}
+$$
+
+$$
+\begin{bmatrix}
+    1\quad 0 \\ 
+    0\quad 1
+\end{bmatrix}
 $$

@@ -1,11 +1,9 @@
-# Day 1
-This content is lectured on 2024/4/8.
+# 行列について
 
-## Matrix(P.50)
-Matrix is a rectangular arrangement of numbers or letters.
-Things included in the matrix is called components.
+## 行列(P.50)
+行列とは、数字や文字を長方形に並べたものです。行列に含まれるものをコンポーネントと呼びます。
 
-Matrix is something like a below.
+行列は以下のようなものです。
 
 \begin{bmatrix}
     3 , 4 \\
@@ -23,10 +21,8 @@ Matrix is something like a below.
     c, d, e \\
 \end{bmatrix}
 
-About matrix, vertical arrangement is **column**. Horizontal arrangement is **row**.
+行列では縦方向の配置のことを**列**、横方向の配置のことを**行**と呼びます。
 
-About above matrix, component that position is **i th** row, **j th** column is 
+もしi行j列の行列がある場合はその行列を**ixj行列**と呼びます。
 
-$$ (i, j) component$$
-
-In order from the top, called **3x2Matrix**, **2x2Matrix**, **2x3Matrix**.
+一番上の行列なら**3x2行列**です。

@@ -3,5 +3,6 @@ These pages shows you that you have to study.
 
 # Table
 
-- **[Day 1](./day1.md)**
-- **[Day 2](./day2.md)**
+- **[行列について](./day1.md)**
+- **[様々な行列](./day2.md)**
+- **[行列同士の足し算、引き算](./day3.md)**
