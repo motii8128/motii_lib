@@ -9,3 +9,5 @@ These pages shows you that you have to study.
 - **[定積分の性質](./no4.md)**
 - **[偶関数と奇関数](./no5.md)**
 - **[いろいろな不定積分](./no6.md)**
+- **[不定積分の置換積分法](./no7.md)**
+- **[定積分の置換積分法](./no8.md)**

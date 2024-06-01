@@ -1,0 +1,112 @@
+# 不定積分の置換積分法
+合成関数の微分法の逆みたいなことをするやつ
+ある関数fとgがあったときに
+
+$$
+g(x) = t
+$$
+
+とすると
+
+$$
+g`(x) = \frac {dt} {dx}
+$$
+となるので２つの関数を用いた積分を以下のように解くことができる。
+
+$$
+\int f(g(x)) g`(x) dx = \int f(t) \frac {dt} {dx} dx = \int f(t) dt
+$$
+
+## 例題１
+
+$$
+\int sin^3x cosx dx
+$$
+ここでsinxをg(x)とする。
+
+よって
+$$
+g(x) = t = sinx
+$$
+となり
+$$
+g`(x) = \frac {dt}{dx} = cosx
+$$
+これをdxについて変形すると
+$$
+dx = \frac {dt} {cosx}
+$$
+したがってもとの式をtによって置き換えると
+$$
+\int t^3 cosx \frac {dt} {cosx} = \int t^3 dt
+$$
+となる。
+
+これをtについて積分し、tの中身を戻すことで最初の式の積分を求めたといえるだろう。
+$$
+\begin{align}
+\int t^3 dt &= \frac 1 4 t^4 \\
+&= \frac 1 4 sin^4x
+\end{align}
+$$
+
+## 例題２
+$$
+\int (4x+3)^5 dx
+$$
+ここでも置換積分法を使っていく
+$$
+g(x) = t = 4x+3
+$$
+これを微分する。
+$$
+g`(x) = \frac {dt} {dx} = 4
+$$
+そしてdxについて変形すると
+$$
+dx = \frac {dt} 4
+$$
+したがってもとの式をtによって置き換えると
+$$
+\int t^5 \frac {dt} 4
+$$
+
+先程と同じようにｔについて積分して結果を求める。
+$$
+\begin{align}
+\int t^5 \frac {dt} 4 &= \frac 1 4 \int t^5 dt \\
+&= \frac 1 4 * \frac 1 6 t^6 \\
+&= \frac 1 {24} t^6 \\
+&= \frac 1 {24} (4x+3)^6
+\end{align}
+$$
+
+## 少し難しい問題
+$$
+\int cot x dx
+$$
+少し難しい問題についても置換積分法で解けるのでここに記す
+
+まずこの問題は以下と同義である
+$$
+\int \frac 1 {tanx} dx = \int \frac {cosx} {sinx} dx
+$$
+ここで
+$$
+g(x) = t = sinx
+$$
+$$
+g`(x) = \frac {dt}{dx} = cosx
+$$
+そしてdxについて変形すると
+$$
+dx = \frac {dt} {cosx}
+$$
+したがってもとの式をtによって置き換えると
+$$
+\begin{align}
+\int \frac {cosx} t \frac {dt} {cosx} &= \int \frac {dt} t \\
+&= \log \lvert t\rvert \\
+&= \log \lvert sinx \rvert
+\end{align}
+$$
