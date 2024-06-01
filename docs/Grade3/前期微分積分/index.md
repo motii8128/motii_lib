@@ -13,3 +13,4 @@ These pages shows you that you have to study.
 - **[定積分の置換積分法](./no08.md)**
 - **[不定積分の部分積分法](./no09.md)**
 - **[定積分の部分積分法](./no10.md)**
+- **[置換積分法・部分積分法の応用](./no11.md)**
