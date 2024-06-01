@@ -1,0 +1,75 @@
+# 不定積分の部分積分法
+$$
+\int g(x) dx = G(x)
+$$
+このようにおくと以下の積分を部分積分法によって解くことができる。
+$$
+\int f(x)g(x) dx = f(x)G(x) - \int f`(x)G(x)dx
+$$
+
+特に理論的な解説はいらないと思われるので終わり
+
+## 例題１
+$$
+\int xsinx dx
+$$
+部分積分法の考え方として微分して消える方を微分する方に選ぶよう意識すると解きやすい気がする。この問題とｘの方を微分する。
+
+$$
+\int xsinx dx = x*(-cosx) - \int 1*(-cosx) dx
+$$
+これで積分がただのcosxと簡単になった。またここで第２項のマイナスも外に出しておくと混乱しづらいと思われる
+$$
+\begin{align}
+\int xsinx dx &= -xcosx + \int cosx dx \\
+&= -xcosx + sinx
+\end{align}
+$$
+
+##　例題２
+$$
+\int \log x dx
+$$
+部分積分法を使うと普通は解くことのできない上のような問題を解くことができる。このままだと関数がひとつしかないため部分積分法を適用できないように見えるが以下のようにして考えることで解く。
+
+$$
+\int 1*\log x dx
+$$
+
+イメージ的には積分できる方に積分するお仕事を押しつける感じ。
+$$
+\begin{align}
+\int 1*\log x dx &= xlogx - \int x \frac 1 x dx \\
+&= xlogx - \int 1 dx \\
+&= xlogx - x
+\end{align}
+$$
+
+##　少し難しい問題
+$$
+\begin{align}
+\int \frac {\log x}{x^2} dx &= \log x(-x^{-1}) - \int \frac 1 x (-x^{-1}) dx \\
+&= -\log x *\frac 1 x + \int \frac 1 {x^2} dx \\
+&= -\log x *\frac 1 x - \frac 1 x \\
+&= -\frac 1 x(logx + 1)
+\end{align}
+$$
+
+##　何回も部分微分法
+$$
+\int x^2 e^{2x} dx
+$$
+$$
+\begin{align}
+\int x^2 e^{2x} dx &= x^2*(\frac{e^{2x}}{2}) - \int 2x(\frac{e^{2x}}{2}) dx = x^2*(\frac{e^{2x}}{2}) - \int x e^{2x} dx
+\end{align}
+$$
+このような問題は一度部分積分したあとでも右の項の積分についてもう一度部分積分しなければ解くことができない
+$$
+\begin{align}
+x^2*(\frac{e^{2x}}{2}) - \int x e^{2x} dx &= x^2(\frac{e^{2x}}{2}) - (x(\frac{e^{2x}}{2}) - \int \frac{e^{2x}}{2}dx) \\
+&= \frac 1 2 x^2 e^{2x} - (\frac 1 2 x e^{2x} - \frac 1 2 \int e^{2x} dx) \\
+&= \frac 1 2 x^2 e^{2x} - \frac 1 2 x e^{2x} + \frac {e^{2x}} 4 \\
+&= \frac 1 4 (2x^2 - 2x + 1)e^{2x}
+\end{align}
+$$
