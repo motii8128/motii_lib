@@ -1,38 +1,26 @@
-# Day 1
-This content is lectured on 2024/4/8.
+# No.1
 
-## Network(P.1)
-**Networks** are used for sharing resources, sharing data between computers, and for various applications over the InterNet.
+## OSI参照モデル
+|語句|意味|
+|:--:|:--:|
+|プロトコル|ルールや決まりごと。データをやり取りするための共通のルールおよび手順|
+|HTTP|Hyper Text Transfer Protocolの略称。Webサイトでの情報をやり取りするためのプロトコル|
+|プロトコルスタック|たくさんのプロトコルの集まりのこと。例）TCP/IP|
+|ISO|International Organization for Standardizationの略称。国際標準化機構のこと。OSI参照モデルではベンダー間で異なる仕様の場合は相互通信できない。そのため標準モデルを定義し、役割に応じた層に分割|
 
-These days, **IoT(Internet of Things)** is progressing in the world.
+## 絶対に出るOSI参照モデル
+|層|名前|役割・機能|
+|:--:|:--:|:--:|
+|第７層　レイヤ７　L７|アプリケーション層|アプリケーション固有の通信サービスを実現。web、メール、...。HTTP、SMTP、POP3、DHCP、DNS、...など多数|
+|第６層　レイヤ６　L６|プレゼンテーション層|文字コードや圧縮方式の定義|
+|第５層　レイヤ５　L５|セッション層|アプリ同士の通信路（セッション）の制御|
+|第４層　レイヤ４　L４|トランスポート層|信頼性の高い通信の保証。宛先に確実に届ける仕組み。TCP、UDPなどのプロトコル。|
+|第３層　レイヤ３　L３|ネットワーク層|異なるネットワーク上ホスト間でのパケット伝送の仕組み。パケットの経路の計算（**ルーティング**）。論理アドレス（IPアドレス）により通信先を識別|
+|第２層　レイヤ２　L２|データリンク層|同一ネットワーク内の通信の定義。物理アドレス（MACアドレス）でホストを識別|
+|第１層　レイヤ１　L１|物理層|電気的・機械的な通信の定義。ビット「０」「１」のやり取り、ケーブル、コネクタなど|
 
-## Network Device(P.2)
-In the past, the NIC board was not installed in the PC, so it was added.
-Device connect to Internet on wire and wireless.Also, the MAC address is written in the ROM.
-
-## WAN and LAN(P.3)
-LAN is **Local Area Network**. LAN is network in the home, company, school.
-
-WAN is **Wide Area Network**. WAN is network that connect LANs and LANs geographically separated.
-
-## Features about Internet(P.4)
-- **Distribute（分散型）** functions across multiple computers
-- Various routes can be used
-- There is no intermediary system.
-- Origin is **ARPANET(アメリカ国防総省)**
-
-## Kinds of Connection(P.5)
-- **Unicast**・・・1 on 1 connection
-
-- **Broadcast**・・・1 on all connection. Destination is broadcast address.
-
-- **Multicast**・・・1 on some connection. Destination is multicast address.
-
-## Network Topology(P.6~8)
-- **Bus type**・・・These days, almost user don't use it.
-
-- **Star type**・・・Connect around the hub. Topologies commonly used in today's LANs.
-
-- **Ring type**・・・Connect neighboring hosts. Tokens flow and only hosts with tokens can communicate.
-
-- **Mesh type**・・・Connect multiple hosts in a mesh. Even if a failure occurs in one cable, communication is possible via other cables. == **Highly reliable**
+## ケーブルの種類
+|語句|意味|写真|
+|:--:|:--:|:--:|
+|ツイストペアケーブル|UTP(Unshielded Twist Pair Cable)やSTP(Shielded Twist Pair Cable)。RJ45コネクタがある|![](./img/TwistPairCable.png)|
+|同軸ケーブル||![](./img/do_ziku.png)|
