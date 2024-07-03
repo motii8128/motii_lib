@@ -12,3 +12,13 @@
 |work on|〜に取り組む、〜で作業する|***Are you still working on the report?***|
 |pick up|〜を受け取る、拾い上げる、車で拾う（むかいにいく表現？）|***Where can I pick up my order?***|
 |ask for|〜を求める, ~ to ask for volunteers「ボランティアを求めるため」|***What does the woman ask for?***|
+|set up|〜を設定する、設置する、セッティングする、設立する|***Set up a meeting***|
+|at least|少なくとも|***We need to hire at least two more people.***|
+|make sure|必ず〜する、確かめる。make sure to doの形でよく出る。|***Make sure you keep your receipt.***|
+|apply for|〜に応募する、申し込む、〜を申請する|***Apply for a job***|
+|fill out|〜に記入する。同義語「complete」|***Would you please fill out this form?***|
+|in order to do|〜するために。|***in order to receive a discount***|
+|up to|最大、最高、最長、〜次第だ|***up to 50 percent off***|
+|as well as|〜に加えて、節と節はつなげない|***We sell furniture as well as clothing.***|
+|in advance|事前に、前もって|***Please make room reservations well in advance.***|
+|right now|ただ今、今すぐ|***I'll do it right now.***|
